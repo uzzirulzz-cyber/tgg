@@ -19,6 +19,7 @@ import ProfilePage from './pages/ProfilePage.jsx'
 import OrdersPage from './pages/OrdersPage.jsx'
 import OrderDetailPage from './pages/OrderDetailPage.jsx'
 import TicketsPage from './pages/TicketsPage.jsx'
+import StaffTrackerPage from './pages/StaffTrackerPage.jsx'
 import NotFoundPage from './pages/NotFoundPage.jsx'
 
 // Admin Pages
@@ -79,6 +80,7 @@ function App() {
           <Route path="/admin/tickets" element={<AdminTickets />} />
           <Route path="/admin/settings" element={<AdminSettings />} />
           <Route path="/admin/homepage" element={<AdminHomepage />} />
+          <Route path="/admin/tracker" element={<StaffTrackerPage />} />
         </Route>
       </Route>
     </Routes>

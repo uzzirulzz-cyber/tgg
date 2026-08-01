@@ -8,6 +8,7 @@ import ticketRoutes from './ticketRoutes.js';
 import homepageRoutes from './homepageRoutes.js';
 import settingsRoutes from './settingsRoutes.js';
 import notificationRoutes from './notificationRoutes.js';
+import trackerRoutes from './trackerRoutes.js';
 
 export {
   authRoutes,
@@ -20,4 +21,5 @@ export {
   homepageRoutes,
   settingsRoutes,
   notificationRoutes,
+  trackerRoutes,
 };

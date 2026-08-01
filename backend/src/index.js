@@ -26,6 +26,7 @@ import {
   homepageRoutes,
   settingsRoutes,
   notificationRoutes,
+  trackerRoutes,
 } from './routes/index.js';
 
 dotenv.config();
@@ -108,6 +109,7 @@ app.use('/api/tickets', ticketRoutes);
 app.use('/api/homepage', homepageRoutes);
 app.use('/api/settings', settingsRoutes);
 app.use('/api/notifications', notificationRoutes);
+app.use('/api/tracker', trackerRoutes);
 
 // Static files for uploads (if needed)
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));

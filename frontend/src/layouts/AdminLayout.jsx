@@ -3,7 +3,7 @@ import { useState } from 'react'
 import {
   LayoutDashboard, Package, ShoppingCart, Users, Warehouse,
   Ticket, Settings, Home, Menu, X, ChevronLeft, ChevronRight,
-  BarChart3, Image
+  BarChart3, Image, Activity
 } from 'lucide-react'
 import useAuthStore from '../services/authStore.js'
 
@@ -19,6 +19,7 @@ const AdminLayout = () => {
     { icon: Users, label: 'Customers', href: '/admin/customers' },
     { icon: Warehouse, label: 'Inventory', href: '/admin/inventory' },
     { icon: Ticket, label: 'Tickets', href: '/admin/tickets' },
+    { icon: Activity, label: 'Tracker', href: '/admin/tracker' },
     { icon: Image, label: 'Homepage', href: '/admin/homepage' },
     { icon: BarChart3, label: 'Analytics', href: '/admin' },
     { icon: Settings, label: 'Settings', href: '/admin/settings' },
